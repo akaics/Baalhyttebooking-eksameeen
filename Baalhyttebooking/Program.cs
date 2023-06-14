@@ -23,11 +23,13 @@ namespace Baalhyttebooking
             Console.WriteLine("-------------**-------------");
 
             //Laver instanser af reservation klassen:
-            Reservationer reservation1 = new Reservationer();
-            Reservationer reservation2 = new Reservationer();
-            Reservationer reservation3 = new Reservationer();
+            Reservation reservation1 = new Reservation(DateTime.Now, boerneGruppe1);
+            Reservation reservation2 = new Reservation(DateTime.Now, boerneGruppe2);
+            Reservation reservation3 = new Reservation(DateTime.Now, boerneGruppe3);
+        
+            
 
-            //Tester klassen Reservationer ved at udskrive instanser af unikke ID:
+            //Tester klassen Reservation ved at udskrive instanser af unikke ID:
 
             Console.WriteLine("-------Reservationer--------");
             Console.WriteLine(reservation1);

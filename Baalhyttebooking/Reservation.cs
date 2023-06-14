@@ -31,7 +31,7 @@ namespace Baalhyttebooking
 
         public override string ToString()
         {
-            return $"Reservations information: {ID}, {Tidspunkt}, {BoerneGruppe}";
+            return $"Reservations ID og information: {ID}, {Tidspunkt}, {BoerneGruppe}";
         }
     }
 }

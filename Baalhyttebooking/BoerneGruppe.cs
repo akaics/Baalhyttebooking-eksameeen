@@ -16,19 +16,16 @@ namespace Baalhyttebooking
         int antalDeltagere;
         int id;
         DateTime tidspunkt;
-        //BoerneGruppe boerneGruppe;
+        
 
-        // getters and setters
+        // getters og setters
 
         public string NextId { get; set; }
         public string Navn { get; set; }
         public string AldersGruppe { get; set; }
         public int AntalDeltagere { get; set; }
-        
-       // public BoerneGruppe BoerneGruppe { get;}
-        //Check boernegruppefejl
 
-        //Constructor 
+        //Konstruktør
         public BoerneGruppe(string nextId, string navn, string aldersGruppe, int antalDeltagere)
         {
             NextId = nextId;
@@ -36,7 +33,6 @@ namespace Baalhyttebooking
             AldersGruppe = aldersGruppe;
             AntalDeltagere = antalDeltagere;
         }
-
 
         //Implementerer en ToString() metode
 
